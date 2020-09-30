@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../src/pages/movieDetailsPage/MovieDetailsPage.module.scss"
+    ],
+    "names": [],
+    "file": "MovieDetailsPage.module.css"
+}

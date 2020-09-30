@@ -1,0 +1,29 @@
+.cast {
+  &List {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 9px 9px 26px 1px rgba(87, 59, 59, 0.75);
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  &ListItem {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  &Image {
+    max-width: 100%;
+    background-size: cover;
+  }
+}

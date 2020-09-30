@@ -1,0 +1,17 @@
+.section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: 0 auto;
+  box-shadow: 9px 9px 26px 1px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  color: #727272;
+}

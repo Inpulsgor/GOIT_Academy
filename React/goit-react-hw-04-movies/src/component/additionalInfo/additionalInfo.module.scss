@@ -1,0 +1,41 @@
+.additional {
+  border-top: 1px solid #000;
+  width: 100%;
+  padding-top: 15px;
+
+  &Title {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  &List {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &Link {
+    text-decoration: none;
+    display: block;
+    background-color: rgba(255, 136, 0, 0.5);
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    width: max-content;
+    margin-right: 5px;
+    font-weight: 500;
+  }
+
+  &Link:hover {
+    background-color: rgb(255, 136, 0);
+    transition: all 0.2s ease-in-out;
+  }
+
+  &Active {
+    background-color: rgb(255, 136, 0);
+  }
+}

@@ -1,0 +1,29 @@
+.review {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 70%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 9px 9px 26px 1px rgba(87, 59, 59, 0.75);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+  list-style: none;
+  text-decoration: none;
+
+  &Title {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  &NotFound {
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+  }
+}
