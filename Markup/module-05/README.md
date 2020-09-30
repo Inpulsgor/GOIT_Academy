@@ -1,4 +1,4 @@
-# Модуль 5 - Домашнее задание
+# Module #5
 
 Сверстать страницу на основе макета [homework-05.psd](http://fecore.net.ua/psd/homework-05.psd)
 
