@@ -17,18 +17,37 @@
 - Jam [project link](https://jam-bc20.netlify.app/)
 - Radioactive [project link](https://radioactive-bc20.netlify.app/)
 ## JavaScript
-- [module-#1]() ()
-- [module-#2]() ()
-- [module-#3]() ()
-- [module-#4]() ()
-- [module-#5]() ()
-- [module-#6]() ()
-- [module-#7]() ()
-- [module-#8]() ()
-- [module-#9]() ()
-- [module-#10]() ()
-- [module-#11]() ()
-- [module-#12]() ()
-- [module-#13]() ()
+- [module-#1](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-01) ()
+- [module-#2](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-02) ()
+- [module-#3](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-03) ()
+- [module-#4](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-04) ()
+- [module-#5](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-05) ()
+- [module-#6](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-06) ()
+- [module-#7](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-07) ()
+- [module-#8](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-08) ()
+- [module-#10](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-10-food-service) ()
+- [module-#11](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-11) ()
+- [module-#12](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-12-countries) ()
+- [module-#13](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-13-image-finder) ()
+
+`Project:`
+
+- SalleTron [project link](https://saletronproject.netlify.app/)
 ## React.js
+- [module-#1](https://github.com/Inpulsgor/Hogwarts/tree/master/React/goit-react-hw-01-components) ()
+- [module-#2](https://github.com/Inpulsgor/Hogwarts/tree/master/React/goit-react-hw-02-feedback) ()
+- [module-#2](https://github.com/Inpulsgor/Hogwarts/tree/master/React/goit-react-hw-02-phonebook) ()
+- [module-#3](https://github.com/Inpulsgor/Hogwarts/tree/master/React/goit-react-hw-03-image-finder) ()
+- [module-#3](https://github.com/Inpulsgor/Hogwarts/tree/master/React/goit-react-hw-03-phonebook) ()
+- [module-#4](https://github.com/Inpulsgor/Hogwarts/tree/master/React/goit-react-hw-04-movies) ()
+- [module-#5](https://github.com/Inpulsgor/Hogwarts/tree/master/React/goit-react-hw-05-phonebook-ctx) ()
+- [module-#6](https://github.com/Inpulsgor/Hogwarts/tree/master/React/goit-react-hw-06-phonebook) ()
+- [module-#6](https://github.com/Inpulsgor/Hogwarts/tree/master/React/goit-react-hw-06-phonebook_redux_toolkit) ()
+- [module-#7](https://github.com/Inpulsgor/Hogwarts/tree/master/React/goit-react-hw-07-phonebook) ()
+- [module-#8](https://github.com/Inpulsgor/Hogwarts/tree/master/React/goit-react-hw-08-phonebook-master) ()
+
+`Project:`
+
+- Karbovanet₴ [project link](https://bc20-react-project.netlify.app/)
+
 
