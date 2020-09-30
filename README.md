@@ -1,7 +1,7 @@
 # School of Wizardry
 
 ## HTML/CSS
-- [module-#1-2](https://github.com/Inpulsgor/Hogwarts/tree/master/Markup/module-01-02) (аккаунт на `GitHub`, репозиторий, коммит, `GitHub Pages` раздача)
+[x] [module-#1-2](https://github.com/Inpulsgor/Hogwarts/tree/master/Markup/module-01-02) (аккаунт на `GitHub`, репозиторий, коммит, `GitHub Pages` раздача)
 - [module-#3](https://github.com/Inpulsgor/Hogwarts/tree/master/Markup/module-03) (Photoshop для верстальщика)
 - [module-#4](https://github.com/Inpulsgor/Hogwarts/tree/master/Markup/module-04) (расположение `float`, тег `img`, эффекты подчеркивания `псевдоэлементом`)
 - [module-#5](https://github.com/Inpulsgor/Hogwarts/tree/master/Markup/module-05) (`HTML5` теги, семантическая разметка)
