@@ -1,0 +1,106 @@
+.services {
+  padding-top: 115px;
+
+  &__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  }
+
+  &__item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 83px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 383px;
+  flex: 0 0 383px;
+  margin-bottom: 105px;
+  text-align: left;
+  }
+
+  &__item-heading {
+  @include font($main-font, 400, 14px, 17px, $heading-color); 
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  }
+
+  &__item-description {
+  @include font($second-font, 400, 15px, 24px, $font-color);
+  }
+
+  &__item::before {
+  position: absolute;
+  content: "";
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 83px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  }
+
+  &__item-alarm::before {
+  background-image: url("../images/services/alarm_icon.svg");
+  }
+
+  &__item-graph::before {
+  background-image: url("../images/services/graph_icon.svg");
+  }
+
+  &__item-computer::before {
+  background-image: url("../images/services/computer_icon.svg");
+  }
+
+  &__item-book::before {
+  background-image: url("../images/services/book_icon.svg");
+  }
+
+  &__item-home::before {
+  background-image: url("../images/services/home_icon.svg");
+  }
+
+  &__item-square::before {
+  background-image: url("../images/services/square_icon.svg");
+  }
+}
+
+.section__title {
+  @include font($main-font, 700, 30px, 36px, #333333);
+  text-align: center;
+  text-transform: uppercase;
+
+  &::first-letter {
+  text-transform: uppercase;
+  }
+
+  &::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 60px;
+  background-color: $second-hover-color;
+  margin: 0 auto;
+  margin-top: 40px;
+  }
+
+  &-style {
+  @include font($third-font, 400, 24px, 29px,);
+  display: block;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  }
+}
+
+.services__title::after {
+  margin-bottom: 66px;
+  }

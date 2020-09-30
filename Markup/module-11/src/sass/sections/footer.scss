@@ -1,0 +1,61 @@
+.footer {
+  border-top: 1px solid #e5e5e5;
+  min-height: 62px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.copyright {
+  @include font($main-font, 400, 14px, 17px,);
+
+  &__link {
+  color: $second-hover-color;
+  }
+
+  &__link:hover,
+  &__link:focus {
+  color: $hover-color;
+  outline: none;
+  }
+}
+
+.subscription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  &__placeholder {
+  border: 1px solid #e7e7e7;
+  height: 40px;
+  width: 230px;
+  padding-left: 12px;
+  outline: none;
+  }
+
+  &__placeholder::placeholder {
+  @include font($second-font, 300, 15px, 24px, #cccccc);
+  font-style: italic;
+  }
+
+  &__btn {
+  @include font($main-font, 700, 14px, 17px, $light-color);
+  text-transform: uppercase;
+  background-color: #95e1d3;
+  height: 40px;
+  width: 150px;
+  border: none;
+  }
+
+  &__btn:hover,
+  &__btn:focus {
+  background-color: $second-hover-color;
+  cursor: pointer;
+  }
+}

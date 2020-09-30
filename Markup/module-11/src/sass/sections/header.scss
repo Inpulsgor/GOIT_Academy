@@ -1,0 +1,147 @@
+.header {
+    padding-top: 26px;
+    padding-bottom: 230px;
+    background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(243,129,129,0.9)), to(rgba(252,227,138,0.9))), url('../images/section_header/baner.jpg');
+    background-image: -o-linear-gradient( rgba(243,129,129,0.9) 0%, rgba(252,227,138,0.9) 100%), url('../images/section_header/baner.jpg');
+    background-image: linear-gradient( rgba(243,129,129,0.9) 0%, rgba(252,227,138,0.9) 100%), url('../images/section_header/baner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    &__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    margin-bottom: 195px;
+    }
+
+    &__title {
+    @include font($main-font, 700, 150px, 170px, $light-color);
+    margin: 0 auto;
+    margin-bottom: 110px;
+    width: 80%;
+    text-transform: uppercase;
+    }
+
+    &__title-style {
+    @include font($third-font, 400, 72px, 86px, $light-color);
+    text-transform: capitalize;
+    }
+
+    &__title-link {
+    @include font($main-font, 700, 14px, 17px, $light-color);
+    display: block;
+    margin: 0 auto;
+    padding-top: 8px; 
+    width: 160px;
+    height: 40px;
+    background-color: transparent;
+    border: 3px solid $light-color;
+    text-transform: uppercase;
+    }
+
+    &__title-link:hover {
+    cursor: pointer;
+    border-color: $second-hover-color;
+    }
+
+    @media (min-resolution: 192dpi) {
+        background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(243,129,129,0.9)), to(rgba(252,227,138,0.9))), url('../images/section_header/baner@2x.jpg');
+        background-image: -o-linear-gradient( rgba(243,129,129,0.9) 0%, rgba(252,227,138,0.9) 100%), url('../images/section_header/baner@2x.jpg');
+        background-image: linear-gradient( rgba(243,129,129,0.9) 0%, rgba(252,227,138,0.9) 100%), url('../images/section_header/baner@2x.jpg');
+    }
+}
+
+.logo {
+    @include font($main-font, 700, 30px, 36px, $light-color);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+
+    &:hover {
+    color: $hover-color;
+    }
+}
+
+.navigation {
+    &__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: 50px;
+    }
+
+    &__item:not(:last-child) {
+    margin-right: 58px;
+    }
+
+    &__link {
+    position: relative;
+    @include font($main-font, 400, 14px, 17px, $light-color);
+    text-transform: uppercase;
+    cursor: pointer;
+    }
+
+    &__link:after {
+    content: "";
+    position: absolute;
+    display: block;
+    margin-top: 10px;
+    height: 3px;
+    left: 0;
+    width: 0;
+    background-color: $hover-color;
+    -webkit-transition: width 0.2s linear;
+    -o-transition: width 0.2s linear;
+    transition: width 0.2s linear;
+    }
+
+    &__link:hover,
+    &__link:focus {
+    color: $hover-color;
+    fill: $hover-color;
+    outline: none;
+    }
+    
+    &__link:hover::after,
+    &__link:focus::after {
+    width: 100%;
+    }
+
+    &__widget {
+    fill: $light-color;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    }
+}
+
+.widget {
+    &__button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    }
+
+    &__button-icon:first-child {
+    margin-right: 42px;
+    }
+
+    &__button-icon:hover,
+    &__button-icon:focus {
+     color: $hover-color;
+     fill: $hover-color;
+     outline: none;
+    }
+}

@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  background-color: rgb(219, 218, 218);
+}
+
+.search-form input {
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  width: 10%;
+  position: fixed;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: all ease-in-out 0.7s;
+}
+
+.search-form input:focus {
+  background-color: lightblue;
+  border-color: orange;
+  outline: none;
+  width: 50%;
+}
+
+.buttonMore {
+  display: block;
+  margin: 0 auto;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.photo-card {
+  margin-top: 50px;
+  width: 30%;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+}
+
+.load-more {
+  padding: 5px 10px;
+  border-radius: 5px;
+  top: 97vh;
+  position: fixed;
+  border: none;
+  cursor: pointer;
+}
+
+.load-more:hover {
+  background-color: orange;
+  transition: all ease-in-out 0.3s;
+  color: white;
+}

@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+/* HEADER SECTION */
+
+.header {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.header_nav__logo {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #000;
+  vertical-align: middle;
+  float: left;
+  
+}
+
+.header_nav__logo::first-letter {
+  color: #1abc9c;
+  font-weight: 500;
+}
+
+.header_nav__list {
+  float: right;
+  margin-top: 7px;
+}
+
+.header_nav__list_item {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  float: left;
+}
+
+.header_nav__list_item:not(:last-child) {
+  margin-right: 34px;
+}
+
+.header_nav__list_item_link:hover {
+  color: #1abc9c;
+}
+
+.header_nav__list_item_link:focus {
+  color: #1abc9c;
+  outline: none;
+}
+
+.header_nav__list_item_link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000;
+  display: block;
+}
+
+/* PRODUCTS SECTION */
+
+.products {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.products_title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  color: #515151;
+  margin-bottom: 92px;
+}
+
+.products_title::after {
+  content: "";
+  display: block;
+  width:  164px;
+  height: 7px;
+  background-color: #1abc9c;
+  margin: 0 auto;
+  margin-top: 27px;
+}
+
+.products_list {
+  display: block;
+  margin: 0 auto;
+}
+
+.products_list__item {
+  width: 255px; 
+  float: left;
+  display: block;
+  margin: 0 auto;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.products_list__item_link:hover 
+.products_list__item_block {
+background-color: #1abc9c;
+}
+
+.products_list__item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.products_list__item_image {
+  width: 100%;
+  height: auto;
+}
+
+.products_list__item_block {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 40px;
+  color: #fff;
+  background-color: #323232;
+}
+
+.products_list__item_name {
+  float: left;
+  width: 78%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.products_list__item_price {
+  float: right;
+  width: 22%;
+  text-align: center;
+  background-color: rgba(255,255,255,0.44)
+}
+
+/* NEWS SECTION */
+
+.news {
+  padding-top: 30px;
+  padding-bottom: 81px;
+}
+
+.news_title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  color: #515151;
+  margin-bottom: 80px;
+}
+
+.news_title::after {
+  content: "";
+  display: block;
+  width:  164px;
+  height: 7px;
+  background-color: #1abc9c;
+  margin: 0 auto;
+  margin-top: 27px;
+}
+
+.news_list__item {
+  width: 350px;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+.news_list__item:last-child {
+  margin-right: 0;
+}
+
+.news_list__item_img {
+  margin-bottom: 14px;
+}
+
+.news_list__item_heading {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+
+.news_list__item_heading::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 136px;
+  background-color: #4ec6ab;
+  margin-top: 15px;
+}
+
+.news_list__item_paragraph {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 13px;
+}
+
+.news_list__item_link {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: capitalize;
+  text-align: center;
+  width: 159px;
+  height: 51px;
+  color: #fff;
+  background-color: #4ec6ab;
+  border-radius: 3px;
+  cursor: pointer;
+  border: none;
+  padding-top: 10px;
+  
+}
+
+.news_list__item_link:hover {
+  background-color: rgb(50,50,50);
+}
+

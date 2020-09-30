@@ -1,0 +1,24 @@
+ul,
+div,
+input,
+h1 {
+  margin-bottom: 10px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+  background: orange;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+  background: red;
+}
+
+#gallery>li>img {
+  width: 500px;
+}
