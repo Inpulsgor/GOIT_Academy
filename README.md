@@ -14,8 +14,8 @@
 
 `Project:`
 
-- Jam [link](https://jam-bc20.netlify.app/)
-- Radioactive [link](https://radioactive-bc20.netlify.app/)
+Jam [project link](https://jam-bc20.netlify.app/)
+Radioactive [project link](https://radioactive-bc20.netlify.app/)
 ## JavaScript
 - [module-#1]() ()
 - [module-#2]() ()
