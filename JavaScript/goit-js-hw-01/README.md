@@ -1,6 +1,4 @@
-**Читать на других языках: [Русский](README.md), [Українська](README.ua.md).**
-
-# Критерії прийому
+# Module #1
 
 - Створено репозиторій `goit-js-hw-01`
 - При здачі домашньої роботи є посилання на вихідні файли в репозиторії
@@ -58,7 +56,7 @@ const ordered = 50;
 - Після всіх перевірок вивести в `alert` значення змінної `message`.
 
 ```js
-const ADMIN_PASSWORD = "jqueryismyjam";
+const ADMIN_PASSWORD = 'jqueryismyjam';
 let message;
 ```
 
