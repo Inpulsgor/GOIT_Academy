@@ -1,95 +1,102 @@
-# Webpack starter kit &middot; [![Build Status](https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square)](https://travis-ci.org/npm/npm) [![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/npm) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/your/your-project/blob/master/LICENSE)
+# Module #10
 
-## Developing
+- Створено репозиторій `goit-js-hw-10-food-service`.
+- При здачі домашньої роботи є два посилання: на вихідні файли і робочу сторінку
+  на GitHub pages.
+- При відвідуванні робочої сторінки (GitHub pages) завдання, в консолі немає
+  помилок і попереджень.
+- Імена змінних та функцій зрозумілі, описові.
+- Проєкт зібраний з допомогою `Webpack`.
+- Код відформатований за допомогою `Prettier`.
 
-### Prerequisites
+# Завдання
 
-Для корректной работы SASS-компилятора и других инструментов, необходимо один
-раз глобально поставить дополнительные пакеты, выполнив в терминале (с правами
-администратора) следующие команды. Пользователям MacOS ничего делать не нужно.
+Створи сторінку меню з можливістю вибору теми для сервісу замовлення їжі.
+[Посилання на демо відео](https://take.ms/RxIlv).
 
-Пользователям **Windows**.
+![Прев'ю](preview.jpg)
 
-```shell
-npm install --global windows-build-tools
+- Обов'язково використовуй `Webpack` для збирання та деплоя,
+  [посилання на готову збірку](https://github.com/luxplanjay/webpack-starter-kit)
+- В папці [src](./src) ти знайдеш стартову розмітку, стилі і дані
+- Масив об'єктів страв лежить в [menu.json](./src/menu.json)
+
+## Тема
+
+Реалізуй функціонал зміни теми при натисканні (подія `change`) на чекбокс
+`input.js-switch-input` в тулбарі.
+
+- За замовчуванням тема світла.
+- При зміні теми, необхідно додавати на елемент `body` клас `light-theme`
+  або `dark-theme`.
+- Обрана тема повинна зберігатися між перезавантаженнями сторінки. Для зберігання
+  активної теми використовуй localStorage.
+- Якщо при завантаженні сторінки тема темна, не забудь поставити властивість `checked`
+  у чекбокса `input.js-switch-input` в `true`, щоб повзунок зрушився в
+   правильне положення.
+
+Для зручності зберігання списку тем використовуй таке перерахування `Theme`.
+
+```js
+const Theme = {
+  LIGHT: 'light-theme',
+  DARK: 'dark-theme',
+};
 ```
 
-Пользователям **Linux**.
+## Шаблонізація
 
-```shell
-sudo apt-get install gcc g++ make
+Використовуючи шаблонізатор [Handlebars](https://handlebarsjs.com/) створи шаблон
+одного елемента меню. Після чого, використовуючи шаблон, створи розмітку всього меню за даними з [menu.json](./src/menu.json) і додай в DOM в `ul.js-menu`.
+
+Для іконок використовуємо `Material Icons`, лінк на веб-фонт вже є в вихідному
+HTML.
+
+Нижче вказана розмітка елемента меню яка повинна виходити за шаблоном (дані
+будуть різні для кожного об'єкта).
+
+```html
+<li class="menu__item">
+  <div class="card">
+    <img
+      src="https://s1.eda.ru/StaticContent/Photos/140812180013/140820212258/p_O.jpg"
+      alt="Картопля, запечена в мундирі"
+      class="card__image"
+    />
+    <div class="card__content">
+      <h2 class="card__name">Картопля, запечена в мундирі</h2>
+      <p class="card__price">
+        <i class="material-icons">
+          monetization_on
+        </i>
+        100 кредитів
+      </p>
+
+      <p class="card__descr">
+        Ароматна, ситна, шипляча домашня картопля, фарширована
+        сметанно-беконною начинкою, - це дуже простий і дуже ефектний спосіб
+        нагодувати велику кількість людей, практично не витративши на підготовку
+        ні сил, ні часу. Звичайну картоплю при бажанні тут можна замінити на
+        солодкий батат, а в начинку додати, наприклад, кукурудзу або солодкий
+        червоний перець.
+      </p>
+
+      <ul class="tag-list">
+        <li class="tag-list__item">Картопля</li>
+        <li class="tag-list__item">Часник</li>
+        <li class="tag-list__item">Сметана</li>
+        <li class="tag-list__item">Бекон</li>
+        <li class="tag-list__item">Твердий сир</li>
+        <li class="tag-list__item">Зелена цибуля</li>
+      </ul>
+    </div>
+
+    <button class="card__button button">
+      <i class="material-icons button__icon">
+        shopping_cart
+      </i>
+      В корзину
+    </button>
+  </div>
+</li>
 ```
-
-### Setting up Dev
-
-Для быстрого старта необходимо склонировать репозиторий.
-
-```shell
-git clone https://github.com/luxplanjay/webpack-starter-kit.git
-```
-
-Переименовать папку сборки по имени вашего проекта.
-
-```shell
-mv webpack-starter-kit имя_проекта
-```
-
-Затем перейти в папку проекта.
-
-```shell
-cd имя_проекта
-```
-
-Находясь в папке проекта удалить папку `.git` связанную с репозиторием сборки
-выполнив следующую команду.
-
-```shell
-npx rimraf .git
-```
-
-Установить все зависимости.
-
-```shell
-npm install
-```
-
-И запустить режим разработки.
-
-```shell
-npm start
-```
-
-Во вкладке браузера перейти по адресу
-[http://localhost:4040](http://localhost:4040).
-
-### Building
-
-Для того чтобы создать оптимизированные файлы для хостинга, необходимо выполнить
-следующую команду. В корне проекта появится папка `build` со всеми
-оптимизированными ресурсами.
-
-```shell
-npm run build
-```
-
-### Deploying/Publishing
-
-Сборка может автоматически деплоить билд на GitHub Pages удаленного (remote)
-репозитория. Для этого необходимо в файле `package.json` отредактировать поле
-`homepage`, заменив имя пользователя и репозитория на свои.
-
-```json
-"homepage": "https://имя_пользователя.github.io/имя_репозитория"
-```
-
-После чего в терминале выполнить следующую команду.
-
-```shell
-npm run deploy
-```
-
-Если нет ошибок в коде и свойство `homepage` указано верно, запустится сборка
-проекта в продакшен, после чего содержимое папки `build` будет помещено в ветку
-`gh-pages` на удаленном (remote) репозитории. Через какое-то время живую
-страницу можно будет посмотреть по адресу указанному в отредактированном
-свойстве `homepage`.
