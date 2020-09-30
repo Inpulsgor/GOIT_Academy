@@ -11,6 +11,11 @@
 - [module-#9](https://github.com/Inpulsgor/Hogwarts/tree/master/Markup/module-09) (`Bootstrap 4`, каcтомизировать ширины контейнера, Photoshop: `View -> Show -> Guides`)
 - [module-#10](https://github.com/Inpulsgor/Hogwarts/tree/master/Markup/module-10) (`normalize.css`, `BEM`-именование для классов, `SVG-спрайт`, `retina` экран 1x и 2x, `Autoprefixer` )
 - [module-#11](https://github.com/Inpulsgor/Hogwarts/tree/master/Markup/module-11) (препроцессор `SASS`, `variables`, `&` для вложенности селектора, `mixins`
+```
+Project: 
+```
+- Jam [link](https://jam-bc20.netlify.app/)
+- Radioactive [link](https://radioactive-bc20.netlify.app/)
 ## JavaScript
 - [module-#1]() ()
 - [module-#2]() ()
