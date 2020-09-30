@@ -1,4 +1,4 @@
-# GOIT_academy 
+# School of Wizardry
 
 ## HTML/CSS
 - [module-#1-2]() (аккаунт на `GitHub`, репозиторий, коммит, `GitHub Pages` раздача)
