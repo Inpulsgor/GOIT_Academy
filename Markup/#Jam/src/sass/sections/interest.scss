@@ -1,0 +1,387 @@
+.section__title {
+  @include font(
+    $ff: 'Acrom',
+    $fw: 800,
+    $fs: rem(20),
+    $lh: 30px,
+    $color: $fifth-font-color
+  );
+  letter-spacing: -1.2px;
+  width: 100%;
+
+  @include for-tablet-up {
+    @include font(
+      $ff: 'Acrom',
+      $fw: 800,
+      $fs: rem(30),
+      $lh: 40px,
+      $color: $fifth-font-color
+    );
+    text-align: center;
+  }
+
+  @include for-desktop-up {
+    @include font(
+      $ff: 'Acrom',
+      $fw: 800,
+      $fs: rem(48),
+      $lh: 60px,
+      $color: $fifth-font-color
+    );
+    letter-spacing: -1.92px;
+    text-align: left;
+    padding-left: 15px;
+    width: 40%;
+
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+  }
+}
+
+.interest {
+  background-image: url(../images/interest/lines.png);
+  background-repeat: repeat-y;
+  background-position: center;
+  padding-top: 30px;
+  padding-bottom: 38px;
+
+  @include for-tablet-up {
+    padding-top: 56px;
+  }
+
+  @include for-desktop-up {
+    padding-top: 95px;
+    padding-bottom: 140px;
+  }
+
+  &__title {
+    margin-bottom: 24px;
+
+    @include for-tablet-up {
+      margin-bottom: 35px;
+    }
+
+    @include for-desktop-up {
+      margin-bottom: 70px;
+    }
+  }
+
+  &__market {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+  }
+
+  &__wrapper {
+    @include for-desktop-up {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 15px;
+    }
+  }
+}
+
+.market {
+  @include for-tablet-up {
+    width: 93%;
+    margin: 0 auto;
+    box-shadow: -18px 19px 0px 0px rgba(27, 32, 42, 0.06),
+      0px 15px 32px 0px rgba(0, 0, 0, 0.2);
+    padding-top: 52px;
+    padding-bottom: 54px;
+    margin-bottom: 48px;
+    background-color: #fff;
+    background-image: url('../images/interest/map-blue.png');
+    background-repeat: no-repeat;
+    background-position: 80% 83%;
+    padding-left: 57px;
+    padding-right: 50px;
+  }
+
+  @include for-desktop-up {
+    width: 60%;
+    margin: 0;
+    background-position: 82% 83%;
+    display: block;
+  }
+
+  &__title {
+    @include font(
+      $ff: 'Acrom',
+      $fw: 800,
+      $fs: 14px,
+      $lh: 20px,
+      $color: $fifth-font-color
+    );
+    letter-spacing: -0.56px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+
+    @include for-tablet-up {
+      @include font(
+        $ff: 'Acrom',
+        $fw: 800,
+        $fs: rem(18),
+        $lh: 25px,
+        $color: $fifth-font-color
+      );
+      letter-spacing: -0.72px;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      width: 65%;
+    }
+
+    @include for-desktop-up {
+      margin-bottom: 38px;
+      width: 67%;
+    }
+  }
+
+  &__list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    padding: 0 17px 0 17px;
+
+    @include for-tablet-up {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 0;
+    }
+  }
+
+  &__list-item {
+    @include font(
+      $ff: 'Acrom',
+      $fw: 500,
+      $fs: 14px,
+      $lh: 20px,
+      $color: $fifth-font-color
+    );
+    letter-spacing: -0.56px;
+
+    @include for-tablet-up {
+      width: 30%;
+    }
+
+    &:nth-child(-n + 3) {
+      @include for-tablet-up {
+        margin-bottom: 28px;
+      }
+
+      @include for-desktop-up {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__income {
+    @include font(
+      $ff: 'Acrom',
+      $fw: 800,
+      $fs: 14px,
+      $lh: 20px,
+      $color: $fifth-font-color
+    );
+    letter-spacing: -0.56px;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 10px;
+
+    @include for-tablet-up {
+      display: flex;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__digits {
+    @include font(
+      $ff: 'Acrom',
+      $fw: 700,
+      $fs: 30px,
+      $lh: 36px,
+      $color: $third-font-color
+    );
+    letter-spacing: -1.2px;
+    margin-bottom: 5px;
+    display: block;
+
+    @include for-tablet-up {
+      font-weight: 500;
+    }
+  }
+
+  &__income-wrapper {
+    padding-left: 17px;
+
+    @include for-tablet-up {
+      width: 41%;
+      padding: 0;
+    }
+  }
+}
+
+.income {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
+    @include for-tablet-up {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__list-item {
+    @include font(
+      $ff: 'Acrom',
+      $fw: 500,
+      $fs: 10px,
+      $lh: 11px,
+      $color: $main-font-color
+    );
+    letter-spacing: -0.4px;
+    width: 48%;
+
+    @include for-tablet-up {
+      padding: 0;
+      width: 46%;
+    }
+  }
+
+  &__digits {
+    @include font(
+      $ff: 'Acrom',
+      $fw: 700,
+      $fs: 25px,
+      $lh: 25px,
+      $color: $third-font-color
+    );
+    letter-spacing: -1px;
+    display: block;
+    margin-bottom: 5px;
+
+    @include for-tablet-up {
+      font-weight: 500;
+    }
+  }
+}
+
+.proposal {
+  @include for-tablet-up {
+    width: 83%;
+    margin: 0 auto;
+  }
+
+  @include for-desktop-up {
+    width: 35%;
+    margin: 0;
+    padding-top: 120px;
+    padding-left: 10px;
+  }
+
+  &__title {
+    margin-bottom: 12px;
+    @include for-tablet-up {
+      margin-bottom: 26px;
+    }
+
+    @include for-desktop-up {
+      width: 100%;
+      margin-bottom: 32px;
+      padding: 0;
+    }
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+
+    @include for-tablet-up {
+      width: 65%;
+    }
+
+    @include for-desktop-up {
+      width: 100%;
+    }
+  }
+
+  &__list-item {
+    @include font(
+      $ff: 'Acrom',
+      $fw: 500,
+      $fs: 14px,
+      $lh: 20px,
+      $color: $fifth-font-color
+    );
+    letter-spacing: -0.56px;
+    padding-left: 36px;
+    position: relative;
+    width: 95%;
+
+    @include for-tablet-up {
+      @include font(
+        $ff: 'Acrom',
+        $fw: 500,
+        $fs: 16px,
+        $lh: 22px,
+        $color: $fifth-font-color
+      );
+      letter-spacing: -0.64px;
+    }
+
+    @include for-desktop-up {
+      @include font(
+        $ff: 'Acrom',
+        $fw: 500,
+        $fs: 18px,
+        $lh: 20px,
+        $color: $fifth-font-color
+      );
+      letter-spacing: -0.72px;
+    }
+  }
+
+  &__list-item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  &__list-item::before {
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 12px;
+    display: block;
+    background-color: $third-font-color;
+    left: 0;
+    top: 3px;
+
+    @include for-desktop-up {
+      left: 5px;
+      top: 3px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    background-image: url('../images/interest/map.png');
+    background-repeat: no-repeat;
+    background-position: right 58%;
+  }
+
+  .market__list-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}

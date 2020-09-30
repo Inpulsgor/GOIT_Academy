@@ -1,0 +1,29 @@
+@mixin font($ff: 'Acrom', $fw: 400, $fs: 16px, $lh: 1.2, $color: inherit) {
+  font-family: $ff;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  color: $color;
+}
+
+@mixin for-phone-only {
+  @media (min-width: 320px) {
+    @content;
+  }
+}
+
+@mixin for-tablet-up {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin for-desktop-up {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+@function rem($px) {
+  @return ($px / 16) + rem;
+}

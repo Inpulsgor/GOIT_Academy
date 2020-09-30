@@ -1,0 +1,47 @@
+.section__heading {
+  position: relative;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  width: max-content;
+  margin: 0 auto;
+
+  &:before {
+    content: '';
+    display: block;
+    background-color: rgba(83, 91, 100, 0.4);
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -80px;
+
+    @include for-tablet-up {
+      left: -76px;
+    }
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    background-color: rgba(83, 91, 100, 0.4);
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -80px;
+
+    @include for-tablet-up {
+      right: -76px;
+    }
+  }
+
+  @include for-tablet-up {
+    font-size: 28px;
+  }
+}

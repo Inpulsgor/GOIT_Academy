@@ -1,0 +1,113 @@
+footer {
+  background-image: url(../images/footer/footer_bg-sm.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding: 70px 0 14px;
+  text-align: center;
+
+  @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx) and (min-width: 320px) {
+    background-image: url(../images/footer/footer_bg-sm@2x.jpg);
+  }
+
+  @include for-tablet-up {
+    background-image: url(../images/footer/footer_bg-md.jpg);
+    padding: 130px 0 18px;
+
+    @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url(../images/footer/footer_bg-md@2x.jpg);
+    }
+  }
+  @include for-desktop-up {
+    background-image: url(../images/footer/footer_bg-lg.jpg);
+    padding: 256px 0 60px;
+
+    @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url(../images/footer/footer_bg-lg@2x.jpg);
+    }
+  }
+}
+
+.footer__wrapper {
+  width: 100%;
+  margin: 0 auto;
+
+  @include for-tablet-up {
+    width: 620px;
+  }
+
+  @include for-desktop-up {
+    width: 1140px;
+  }
+}
+
+.footer__request {
+  display: block;
+  border: none;
+  border-bottom: 2px solid $third-font-color;
+  background: none;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'Acrom', sans-serif;
+  font-weight: 900;
+  color: $third-font-color;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 auto 370px;
+
+  @include for-tablet-up {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 450px;
+  }
+
+  @include for-desktop-up {
+    border-bottom: 3px solid $third-font-color;
+    font-size: 60px;
+    line-height: 76px;
+    margin-bottom: 600px;
+  }
+}
+
+.footer__slogan {
+  margin: 0 auto;
+
+  @include for-tablet-up {
+    text-align: left;
+  }
+}
+
+.footer__logo {
+  display: inline-block;
+  vertical-align: middle;
+
+  @include for-tablet-up {
+    margin: 0 14px 0 0;
+  }
+
+  @include for-tablet-up {
+    margin: 0 30px 0 0;
+  }
+}
+
+.footer__tagline {
+  font-size: 14px;
+  font-family: 'Acrom', sans-serif;
+  font-weight: 400;
+  color: $secondary-font-color;
+  line-height: 60px;
+  margin: 0;
+  padding: 0;
+
+  @include for-tablet-up {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+  }
+
+  @include for-desktop-up {
+    font-size: 25px;
+  }
+}

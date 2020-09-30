@@ -1,0 +1,146 @@
+.customers {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 60px;
+
+  @include for-tablet-up {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 110px;
+  }
+
+  @include for-tablet-up {
+    margin-bottom: 120px;
+  }
+}
+
+@include for-phone-only {
+  .section__heading--br {
+    display: block;
+  }
+}
+
+.section__heading-customers {
+  color: $green-text-color;
+  margin-bottom: 52px;
+
+  @include for-phone-only {
+    &:before {
+      top: 23%;
+    }
+
+    &:after {
+      top: 23%;
+    }
+  }
+
+  @include for-tablet-up {
+    margin-bottom: 68px;
+  }
+}
+
+.face-img {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  @include for-tablet-up {
+    margin-bottom: 26px;
+  }
+}
+
+.face-name {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: $black-name-our-team-color;
+  line-height: 1.3;
+  font-weight: 700;
+
+  @include for-tablet-up {
+    margin-bottom: 0;
+  }
+}
+
+.face-name-prof {
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: 'Open Sans', sans-serif;
+  color: $button-on-our-team-color;
+  line-height: 1.2;
+  font-weight: 400;
+  @include for-tablet-up {
+    margin-bottom: 60px;
+  }
+}
+
+.face-text {
+  display: block;
+  text-align: center;
+  padding-left: 47px;
+  padding-right: 47px;
+  position: relative;
+  margin-bottom: 24px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  font-size: 16px;
+  @include for-tablet-up {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 2;
+    padding-left: 68px;
+    padding-right: 68px;
+    margin-bottom: 60px;
+  }
+  @include for-desktop-up {
+    padding-left: 95px;
+    padding-right: 95px;
+    margin-bottom: 50px;
+  }
+}
+
+.face-text::before {
+  content: '';
+  display: inline-block;
+  height: 39px;
+  width: 55px;
+  color: rgb(239, 239, 239);
+  background-image: url(../images/customer/z.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  @include for-tablet-up {
+    left: 37px;
+  }
+  @include for-desktop-up {
+    left: 50px;
+    top: -20px;
+  }
+}
+
+.list-btn {
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.click {
+  display: block;
+  margin-left: 8px;
+}
+
+.circle {
+  background-color: $button-on-our-team-color;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.btn1 {
+  background-color: $green-title-color;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}

@@ -1,0 +1,163 @@
+.features {
+    padding-top: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    @include for-tablet-up {
+        padding-top: 116px;
+    }
+
+    &__heading {
+        color: $header-logo-color;
+        margin-bottom: 26px;
+
+        @include for-tablet-up {
+            margin-bottom: 58px;
+        }
+
+        @include for-desktop-up {
+            margin-bottom: 85px;
+        }
+    }
+
+    &__description {
+        margin: 0;
+        font-size: 16px;
+        line-height: 26px;
+        font-family: "Myripxad Pro", sans-serif;
+        color: $button-on-our-team-color;
+        text-align: center;
+        font-weight: 400;
+        margin-bottom: 39px;
+
+        @include for-tablet-up {
+            font-size: 18px;
+            line-height: 36px;
+            margin-bottom: 63px;
+            padding: 0 38px;
+            letter-spacing: 0.1px;
+        }
+
+        @include for-desktop-up {
+            margin-bottom: 160px;
+        }
+
+    }
+
+    &__list-wrapper {
+        @include for-tablet-up {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 49px;
+
+        @include for-tablet-up {
+            margin-bottom: 108px;
+        }
+
+
+
+
+        &-item {
+            position: relative;
+            flex-wrap: wrap;
+            padding-left: 61px;
+            @include for-phone-only {
+                flex:   0   0   292px;
+            }
+
+
+            &::before {
+                position: absolute;
+                content: '';
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 30px;
+                height: 28px;
+                top: -5px;
+                left: 8px;
+            }
+
+            &-heading {
+                font-size: 18px;
+                font-family: "Raleway", sans-serif;
+                font-weight: 700;
+                line-height: 1;
+                color: $button-on-our-team-color;
+                margin-bottom: 15px;
+            }
+
+            &-text {
+                font-size: 13px;
+                font-family: "OpenSans", sans-serif;
+                color: $button-on-our-team-color;
+                line-height: 24px;
+                font-weight: 600;
+                width: 239px;
+            }
+ 
+            &:not(:last-child) {
+                @include for-phone-only {
+                    margin-bottom: 35px;
+                }
+            }
+
+            &:not(:nth-child(3n +3)) {
+                @include for-tablet-up {
+                    margin-bottom: 105px;
+                }
+
+                @include for-desktop-up {
+                    margin-bottom: 108px;
+                }
+            }
+        }
+    }
+}
+
+.features__list-item-icon-board::before {
+    background-image: url(../images/features/icon_board.svg);
+}
+
+.features__list-item-icon-hub::before {
+    background-image: url(../images/features/icon-hub.svg);
+}
+
+.features__list-item-icon-thumb::before {
+    background-image: url(../images/features/icon-thumb.svg);
+}
+
+.features__list-item-icon-star::before {
+    background-image: url(../images/features/icon-star.svg);
+}
+
+.features__list-item-icon-bell::before {
+    background-image: url(../images/features/icon-bell.svg);
+}
+
+.features__list-item-icon-share::before {
+    background-image: url(../images/features/icon-share.svg);
+}
+
+.features__list-wrapper {
+    position: relative;
+    &-image {
+        position: absolute;
+        width: 418px;
+        height: 726px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        visibility: hidden;
+
+        @include for-desktop-up {
+            visibility: visible;
+        }
+    }
+}

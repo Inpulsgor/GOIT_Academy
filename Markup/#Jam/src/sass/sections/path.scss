@@ -1,0 +1,261 @@
+.path {
+  padding-top: rem(37);
+  padding-bottom: rem(41);
+  background-color: #181c27;
+  background-image: url('../images/path/line.png'), url('../images/path/mobile_bg_highlight.png');
+  background-repeat: repeat-y, no-repeat;
+  background-position: center, center right;
+
+  @include for-tablet-up {
+    padding-top: rem(60);
+    padding-bottom: rem(64);
+    background-image: url('../images/path/line.png'), url('../images/path/tablet_bg_highlight.png');
+  }
+
+  @include for-desktop-up {
+    padding: rem(104) 0;
+    background-image: url('../images/path/line.png'), url('../images/path/desktop_bg_highlight.png');
+    background-position: center, center;
+  }
+
+  &__wrapper-box {
+    @include for-tablet-up {
+      padding-left: rem(64);
+      padding-right: rem(44);
+    }
+
+    @include for-desktop-up {
+      padding: 0;
+      width: 60%;
+      padding-bottom: rem(8);
+    }
+  }
+
+  &__subtitle {
+    @include font(
+      $ff: 'Acrom',
+      $fw: 700,
+      $fs: rem(16),
+      $lh: rem(20),
+      $color: $secondary-font-color
+    );
+    letter-spacing: -0.64px;
+    margin: 0;
+    margin-bottom: rem(26);
+
+    @include for-tablet-up {
+      @include font(
+        $ff: 'Acrom',
+        $fw: 800,
+        $fs: rem(22),
+        $lh: rem(30),
+        $color: $secondary-font-color
+      );
+      letter-spacing: -0.88px;
+      margin-bottom: rem(36);
+    }
+
+    @include for-desktop-up {
+      @include font(
+        $ff: 'Acrom',
+        $fw: 800,
+        $fs: rem(30),
+        $lh: rem(35),
+        $color: $secondary-font-color
+      );
+      letter-spacing: -1.2px;
+      margin-bottom: rem(54);
+    }
+  }
+
+  &__descr {
+    margin-bottom: rem(28);
+    @include for-desktop-up {
+      width: 29%;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-end;
+    }
+  }
+
+  &__descr-text {
+    @include font(
+      $ff: 'Acrom',
+      $fw: 700,
+      $fs: rem(13),
+      $lh: rem(24),
+      $color: $secondary-font-color
+    );
+    margin: 0;
+
+    @include for-tablet-up {
+      @include font(
+        $ff: 'Acrom',
+        $fw: 800,
+        $fs: rem(16),
+        $lh: rem(22),
+        $color: $secondary-font-color
+      );
+      width: 62%;
+      margin-bottom: rem(36);
+    }
+
+    @include for-desktop-up {
+      @include font(
+        $ff: 'Acrom',
+        $fw: 800,
+        $fs: rem(18),
+        $lh: rem(35),
+        $color: $secondary-font-color
+      );
+      width: 100%;
+      margin: 0;
+      letter-spacing: -0.72px;
+    }
+  }
+
+  &__descr-text::before {
+    content: '';
+    display: block;
+    width: rem(60);
+    height: rem(2);
+    background-color: $third-font-color;
+    margin-bottom: rem(18);
+  }
+
+  &__descr-style {
+    font-weight: 400;
+    color: $fourth-font-color;
+    letter-spacing: -0.56px;
+  }
+
+  &__title {
+    @include font(
+      $ff: 'Acrom',
+      $fw: 700,
+      $fs: rem(20),
+      $lh: rem(30),
+      $color: $third-font-color
+    );
+    letter-spacing: -0.8px;
+    margin-bottom: rem(23);
+
+    @include for-tablet-up {
+      @include font(
+        $ff: 'Acrom',
+        $fw: 800,
+        $fs: rem(40),
+        $lh: rem(50),
+        $color: $third-font-color
+      );
+      letter-spacing: -1.6px;
+      margin-bottom: rem(36);
+    }
+
+    @include for-desktop-up {
+      @include font(
+        $ff: 'Acrom',
+        $fw: 700,
+        $fs: rem(48),
+        $lh: rem(58),
+        $color: $third-font-color
+      );
+      letter-spacing: -1.92px;
+      margin-bottom: rem(62);
+    }
+  }
+
+  &__link {
+    @include font(
+      $ff: 'Acrom',
+      $fw: 700,
+      $fs: rem(14),
+      $lh: rem(30),
+      $color: $secondary-font-color
+    );
+    display: block;
+    margin: 0 auto;
+    border: none;
+    width: rem(260);
+    height: rem(70);
+    padding: rem(21) rem(15);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: $button-main-color;
+    box-shadow: 0px 2px 10px 0px rgba(255, 107, 8, 0.59);
+    cursor: pointer;
+    transition: all 0.3s linear;
+
+    &:focus,
+    &:hover {
+      transform: translateY(1px) scale(1.1);
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+      background-color: $third-font-color;
+    }
+
+    @include for-tablet-up {
+      @include font(
+        $ff: 'Acrom',
+        $fw: 700,
+        $fs: rem(18),
+        $lh: rem(30),
+        $color: $secondary-font-color
+      );
+      width: 83%;
+      height: rem(70);
+      margin-left: 0;
+    }
+
+    @include for-desktop-up {
+      @include font(
+        $ff: 'Acrom',
+        $fw: 700,
+        $fs: rem(30),
+        $lh: rem(30),
+        $color: $secondary-font-color
+      );
+      width: 97%;
+      height: rem(109);
+      padding: rem(40) rem(70);
+    }
+  }
+}
+
+.path__wrapper {
+  @include for-desktop-up {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+    width: 1150px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .path .visually-hidden-tablet {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1200px) {
+  .path .visually-hidden-desktop {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
+}

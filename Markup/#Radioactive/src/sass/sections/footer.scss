@@ -1,0 +1,239 @@
+footer {
+  background-image: url(../images/footer/footer-bg-sm.png);
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 58px 0 24px 0;
+
+  @include for-tablet-up {
+    padding: 68px 0 20px 0;
+    background-image: url(../images/footer/footer-bg-md.png);
+  }
+
+  @include for-desktop-up {
+    background-image: url(../images/footer/footer-bg-lg.png);
+  }
+}
+
+.section__footer-heading {
+  color: #fff;
+  margin-bottom: 44px;
+
+  &::before,
+  &::after {
+    background-color: #fff;
+  }
+
+  @include for-tablet-up {
+    margin-bottom: 72px;
+  }
+
+  @include for-desktop-up {
+    margin-bottom: 124px;
+  }
+}
+
+.contact-wrapper {
+  margin: 0 auto 48px;
+
+  @include for-tablet-up {
+    margin-bottom: 42px;
+  }
+
+  @include for-desktop-up {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+  }
+}
+
+.form-contact {
+  margin: 0 auto 64px;
+
+  &__field-set {
+    width: 270px;
+    margin: 0 auto 44px;
+
+    @include for-tablet-up {
+      width: 570px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 32px;
+    }
+  }
+}
+
+.form-contact__input {
+  border: none;
+  background-color: #fff;
+  padding: 0 20px;
+  width: 100%;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: $button-on-our-team-color;
+  line-height: 1.2;
+  text-align: left;
+
+  &:required:focus:invalid:not(:placeholder-shown) {
+    background-color: rgb(253, 208, 208);
+  }
+
+  &--name,
+  &--email {
+    height: 44px;
+    border-radius: 3px;
+    margin-bottom: 24px;
+
+    @include for-tablet-up {
+      width: 270px;
+      margin-bottom: 32px;
+    }
+  }
+
+  &--message {
+    resize: none;
+    border-radius: 7px;
+    height: 174px;
+    padding: 14px 20px;
+  }
+
+  &::placeholder {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: $text-in-input-footer-color;
+    line-height: 1.2;
+    text-align: left;
+  }
+}
+
+.form-contact__btn-submit {
+  border-radius: 3px;
+  background-color: $btn-footer-color;
+  font-size: 22px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  width: 170px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.footer__socials {
+  text-align: center;
+  margin: 0 auto;
+
+  @include for-tablet-up {
+    width: 460px;
+  }
+
+  @include for-desktop-up {
+    text-align: left;
+  }
+
+  &-title {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+
+  &-subtitle {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.502);
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }
+}
+
+.socials-icons {
+  display: flex;
+  width: max-content;
+  margin: 0 auto 38px;
+  padding: 0;
+
+  @include for-tablet-up {
+    margin-bottom: 22px;
+  }
+
+  @include for-desktop-up {
+    margin: 0 auto 38px 0;
+  }
+}
+
+.socials__item {
+  &:not(:last-child) {
+    margin-right: 16px;
+  }
+
+  &-link {
+    display: block;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+  }
+
+  &--facebook {
+    background-color: $background-facebook-color;
+  }
+
+  &--twitter {
+    background-color: $background-twitter-color;
+  }
+
+  &--linkedin {
+    background-color: $background-linket-color;
+  }
+
+  &-icon {
+    fill: #fff;
+  }
+}
+
+.footer__phone-email {
+  &-link {
+    display: block;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: $mail-footer-color;
+    line-height: 24px;
+  }
+}
+
+.footer__copyright-wrapper {
+  position: relative;
+  padding-top: 24px;
+
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.footer__copyright {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.502);
+  line-height: 21px;
+  text-align: left;
+
+  &--br {
+    @include for-phone-only {
+      display: block;
+    }
+  }
+}
