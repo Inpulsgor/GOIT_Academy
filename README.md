@@ -54,6 +54,7 @@
 - [link to module #6](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-06/) (open console to see result)
 - [link to module #7](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-07/)
 - [link to module #8](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-08/src/)
+- [link to module #10](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-10/src/)
 - [link to module #11](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-11/goit-js-hw-11-color-switch/) (color-switch)
 - [link to module #11](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-11/goit-js-hw-11-promisification/) (promisification - open console)
 - [link to module #11](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-11/goit-js-hw-11-color-timer/) (timer)
