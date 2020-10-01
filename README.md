@@ -1,6 +1,7 @@
 # School of Wizardry
 
 ## HTML/CSS
+`source code`
 - [x] [module #1-2](https://github.com/Inpulsgor/hogwarts/tree/master/Markup/module%20%231-2) (аккаунт на `GitHub`, репозиторий, коммит, `GitHub Pages` раздача)
 - [x] [module #3](https://github.com/Inpulsgor/hogwarts/tree/master/Markup/module%20%233) (Photoshop для верстальщика)
 - [x] [module #4](https://github.com/Inpulsgor/hogwarts/tree/master/Markup/module%20%234) (расположение `float`, тег `img`, эффекты подчеркивания `псевдоэлементом`)
@@ -12,25 +13,24 @@
 - [x] [module #10](https://github.com/Inpulsgor/hogwarts/tree/master/Markup/module%20%2310) (`normalize.css`, `BEM`-именование для классов, `SVG-спрайт`, `retina` экран 1x и 2x, `Autoprefixer` )
 - [x] [module #11](https://github.com/Inpulsgor/hogwarts/tree/master/Markup/module%20%2311) (препроцессор `SASS`, `variables`, `&` для вложенности селектора, `mixins`
 
-`Module active link`
-- [module #1-2](https://inpulsgor.github.io/hogwarts/Markup/module%20%231-2/index.html)
-- [module #3](https://inpulsgor.github.io/hogwarts/Markup/module%20%233/index.html)
-- [module #4](https://inpulsgor.github.io/hogwarts/Markup/module%20%234/index.html)
-- [module #5](https://inpulsgor.github.io/hogwarts/Markup/module%20%235/index.html)
-- [module #6](https://inpulsgor.github.io/hogwarts/Markup/module%20%236/index.html)
-- [module #7](https://inpulsgor.github.io/hogwarts/Markup/module%20%237/index.html)
-- [module #8](https://inpulsgor.github.io/hogwarts/Markup/module%20%238/index.html)
-- [module #9](https://inpulsgor.github.io/hogwarts/Markup/module%20%239/index.html)
-- [module #10](https://inpulsgor.github.io/hogwarts/Markup/module%20%2310/index.html)
-- [module #11](https://inpulsgor.github.io/hogwarts/Markup/module%20%2311/build/)
+`active link`
+- [link to module #1-2](https://inpulsgor.github.io/hogwarts/Markup/module%20%231-2/index.html)
+- [link to module #3](https://inpulsgor.github.io/hogwarts/Markup/module%20%233/index.html)
+- [link to module #4](https://inpulsgor.github.io/hogwarts/Markup/module%20%234/index.html)
+- [link to module #5](https://inpulsgor.github.io/hogwarts/Markup/module%20%235/index.html)
+- [link to module #6](https://inpulsgor.github.io/hogwarts/Markup/module%20%236/index.html)
+- [link to module #7](https://inpulsgor.github.io/hogwarts/Markup/module%20%237/index.html)
+- [link to module #8](https://inpulsgor.github.io/hogwarts/Markup/module%20%238/index.html)
+- [link to module #9](https://inpulsgor.github.io/hogwarts/Markup/module%20%239/index.html)
+- [link to module #10](https://inpulsgor.github.io/hogwarts/Markup/module%20%2310/index.html)
+- [link to module #11](https://inpulsgor.github.io/hogwarts/Markup/module%20%2311/build/)
 
-
-
-`Project:`
+`project`
 - Jam [project link](https://jam-bc20.netlify.app/)
 - Radioactive [project link](https://radioactive-bc20.netlify.app/)
 
 ## JavaScript
+`source code`
 - [x] [module #1](https://github.com/Inpulsgor/hogwarts/tree/master/JavaScript/goit-js-hw-01) (скрипт проверки количества товаров, авторизация администратора)
 - [x] [module #2](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-02) (цикл `for`, самое длинное слово в строке)
 - [x] [module #3](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-03) (кол-во свойств в объекте, имя самого продуктивного сотрудника)
@@ -44,7 +44,23 @@
 - [x] [module #12](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-12-countries) (приложение поиска данных о стране, `debounce` )
 - [x] [module #13](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-13-image-finder) (приложение поиска изображений, [Pixabay API](https://pixabay.com/api/docs/), [window.scrollTo()](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo), [Infinite Scroll](https://infinite-scroll.com/), [pnotify](https://github.com/sciactive/pnotify))
 
-`Project:`
+`active link`
+
+- [link to module #1](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-01/) (open console to see result)
+- [link to module #2](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-02/) (open console to see result)
+- [link to module #3](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-03/) (open console to see result)
+- [link to module #4](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-04/) (open console to see result)
+- [link to module #5](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-05/) (open console to see result)
+- [link to module #6](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-06/) (open console to see result)
+- [link to module #7](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-07/)
+- [link to module #8](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-08/src/)
+- [link to module #11](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-11/goit-js-hw-11-color-switch/) (color-switch)
+- [link to module #11](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-11/goit-js-hw-11-promisification/) (promisification - open console)
+- [link to module #11](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-11/goit-js-hw-11-color-timer/) (timer)
+- [link to module #12](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-12-countries/src/)
+- [link to module #13](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-13-image-finder/src/)
+
+`project`
 - SalleTron [project link](https://saletronproject.netlify.app/)
 
 ## React.js
