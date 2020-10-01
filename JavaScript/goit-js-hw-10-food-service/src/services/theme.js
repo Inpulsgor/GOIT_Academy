@@ -1,18 +1,17 @@
 import { load, save } from './localStorage';
 
+const themeSwitch = document.querySelector('input.js-switch-input');
+const body = document.querySelector('body');
 const theme = {
   LIGHT: 'light-theme',
   DARK: 'dark-theme',
 };
 
-const themeSwitch = document.querySelector('input.js-switch-input');
-const body = document.querySelector('body');
 themeSwitch.addEventListener('change', handleCheck);
 
-// let checked = localStorage.getItem('themeStatus');
 let checked = load('themeStatus');
 checked = JSON.parse(checked);
-// console.log('checked', checked);
+console.log('checked', checked);
 
 themeSwitch.checked = checked;
 if (checked) {
@@ -21,7 +20,7 @@ if (checked) {
 
 function handleCheck(e) {
   const isChecked = e.target.checked;
-  // console.log(isChecked);
+  console.log(isChecked);
   if (isChecked) {
     darkThemeAdd();
   } else {
@@ -34,6 +33,7 @@ function darkThemeAdd() {
   body.classList.remove(theme.LIGHT);
   body.classList.add(theme.DARK);
 }
+
 function lightThemeAdd() {
   body.classList.remove(theme.DARK);
   body.classList.add(theme.LIGHT);
