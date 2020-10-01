@@ -28,7 +28,7 @@
 - [x] [module #10](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-10-food-service) (`Webpack`, изменения темы, `Handlebars`, `menu.json` )
 - [x] [module #11](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-11) (переключатель цветов, таймер обратного отсчета, промисификация)
 - [x] [module #12](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-12-countries) (приложение поиска данных о стране, `debounce` )
-- [x] [module #13](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-13-image-finder) (приложение поиска изображений,[Pixabay API](https://pixabay.com/api/docs/), [window.scrollTo()](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo), [Infinite Scroll](https://infinite-scroll.com/), [pnotify](https://github.com/sciactive/pnotify))
+- [x] [module #13](https://github.com/Inpulsgor/Hogwarts/tree/master/JavaScript/goit-js-hw-13-image-finder) (приложение поиска изображений, [Pixabay API](https://pixabay.com/api/docs/), [window.scrollTo()](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo), [Infinite Scroll](https://infinite-scroll.com/), [pnotify](https://github.com/sciactive/pnotify))
 
 `Project:`
 - SalleTron [project link](https://saletronproject.netlify.app/)
