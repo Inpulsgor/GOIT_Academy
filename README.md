@@ -59,7 +59,7 @@
 - [link to module #11](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-11/goit-js-hw-11-promisification/) (promisification - open console)
 - [link to module #11](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-11/goit-js-hw-11-color-timer/) (timer)
 - [link to module #12](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-12-countries/build/)
-- [link to module #13](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-13-image-finder/src/)
+- [link to module #13](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-13-image-finder/build/)
 
 `project`
 - SalleTron [project link](https://saletronproject.netlify.app/)
