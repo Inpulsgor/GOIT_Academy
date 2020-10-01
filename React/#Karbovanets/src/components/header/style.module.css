@@ -1,0 +1,46 @@
+.header {
+  background-color: #fff;
+}
+
+.logo {
+  width: 35px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.logoTitle {
+  color: #52555f;
+}
+
+.headerList {
+  padding: 5px 0;
+  font-family: 'RobotoRegular';
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerLink {
+  font-family: 'RobotoRegular';
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerLink:hover .logo {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+  fill: #ff6c0acc;
+}
+
+.linkInfoTeam {
+  color: #52555f;
+  font-family: 'RobotoRegular', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+.linkInfoTeam:hover {
+  color: #fb7c2f;
+}

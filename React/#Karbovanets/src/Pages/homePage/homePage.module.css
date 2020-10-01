@@ -1,0 +1,135 @@
+.sectionHomePage {
+  min-height: calc(100vh - 50px);
+}
+
+.wrapper {
+  width: 100%;
+  background-color: #f4f6fb;
+  height: 290px;
+  border-radius: 0 0 0 120px;
+  box-sizing: border-box;
+}
+
+.wrapperDescription {
+  padding-top: 85px;
+  padding-left: 16px;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 40px;
+  margin-bottom: 9px;
+}
+
+.uahSymbol {
+  color: #ff6c0acc;
+}
+
+.description {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 23px;
+  letter-spacing: 1.52px;
+  text-transform: uppercase;
+  color: #52555f;
+  padding-left: 12px;
+}
+
+.hryvniaIcon {
+  position: absolute;
+  z-index: 0;
+  fill: #52555f;
+  opacity: 0.05;
+  width: 100px;
+  height: auto;
+  top: 90px;
+  right: 50%;
+  transform: translateX(70%);
+}
+
+/* --- TABLET RESOLUTION --- */
+@media (min-width: 768px) {
+  .wrapper {
+    width: 100%;
+    background-color: #f4f6fb;
+    height: 513px;
+    border-radius: 0 0 0 120px;
+  }
+
+  .wrapperDescription {
+    padding-top: 116px;
+    padding-left: 135px;
+    margin-bottom: 40px;
+  }
+
+  .title {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    padding-left: 30px;
+  }
+
+  .hryvniaIcon {
+    position: absolute;
+    z-index: 0;
+    fill: #52555f;
+    opacity: 0.05;
+    width: 178px;
+    height: auto;
+    top: 70px;
+    right: 50%;
+    transform: translateX(70%);
+  }
+}
+
+/* --- DESKTOP RESOLUTION --- */
+@media (min-width: 1280px) {
+  .wrapper {
+    width: 100%;
+    background-color: #f4f6fb;
+    height: 520px;
+    border-radius: 0 0 0 120px;
+  }
+
+  .wrapperDesktop {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 37px;
+    padding-top: 116px;
+  }
+
+  .wrapperDescription {
+    padding-top: 50px;
+    padding-left: 104px;
+    margin: 0;
+  }
+
+  .bitcoinIcon {
+    z-index: 0;
+    fill: #52555f;
+    opacity: 0.05;
+    width: 200px;
+    height: auto;
+    transform: translateY(90px) translateX(900px);
+  }
+
+  .hryvniaIcon {
+    width: 275px;
+    height: auto;
+    fill: #52555f;
+    transform: translateX(-60px) translateY(50px);
+  }
+
+  .description {
+    padding-left: 50px;
+  }
+}
