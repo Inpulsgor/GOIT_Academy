@@ -13,16 +13,16 @@
 - [x] [module #11](https://github.com/Inpulsgor/hogwarts/tree/master/Markup/module%20%2311) (препроцессор `SASS`, `variables`, `&` для вложенности селектора, `mixins`
 
 `Module active link`
-- [x] [module #1-2](https://inpulsgor.github.io/hogwarts/Markup/module%20%231-2/index.html)
-- [x] [module #3](https://inpulsgor.github.io/hogwarts/Markup/module%20%233/index.html)
-- [x] [module #4](https://inpulsgor.github.io/hogwarts/Markup/module%20%234/index.html)
-- [x] [module #5](https://inpulsgor.github.io/hogwarts/Markup/module%20%235/index.html)
-- [x] [module #6](https://inpulsgor.github.io/hogwarts/Markup/module%20%236/index.html)
-- [x] [module #7](https://inpulsgor.github.io/hogwarts/Markup/module%20%237/index.html)
-- [x] [module #8](https://inpulsgor.github.io/hogwarts/Markup/module%20%238/index.html)
-- [x] [module #9](https://inpulsgor.github.io/hogwarts/Markup/module%20%239/index.html)
-- [x] [module #10](https://inpulsgor.github.io/hogwarts/Markup/module%20%2310/index.html)
-- [x] [module #11](https://inpulsgor.github.io/hogwarts/Markup/module%20%2311/build/)
+- [module #1-2](https://inpulsgor.github.io/hogwarts/Markup/module%20%231-2/index.html)
+- [module #3](https://inpulsgor.github.io/hogwarts/Markup/module%20%233/index.html)
+- [module #4](https://inpulsgor.github.io/hogwarts/Markup/module%20%234/index.html)
+- [module #5](https://inpulsgor.github.io/hogwarts/Markup/module%20%235/index.html)
+- [module #6](https://inpulsgor.github.io/hogwarts/Markup/module%20%236/index.html)
+- [module #7](https://inpulsgor.github.io/hogwarts/Markup/module%20%237/index.html)
+- [module #8](https://inpulsgor.github.io/hogwarts/Markup/module%20%238/index.html)
+- [module #9](https://inpulsgor.github.io/hogwarts/Markup/module%20%239/index.html)
+- [module #10](https://inpulsgor.github.io/hogwarts/Markup/module%20%2310/index.html)
+- [module #11](https://inpulsgor.github.io/hogwarts/Markup/module%20%2311/build/)
 
 
 
