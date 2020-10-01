@@ -1,0 +1,15 @@
+import './services/loader/loader.scss';
+import './css/styles.scss';
+import './services/api';
+import './components/newAdvModal/newAdvModal';
+import './components/header/header';
+import './components/navigationMenu/navigationMenu';
+import './components/authentication/authServises';
+import './components/AuthForm/authOpenModal';
+import './components/basket/basket';
+import './components/adv/js/adv';
+import './components/categoryListItem/renderCategoryList';
+import './components/categoryListItem/categoryListItem';
+import './components/ItemModal/ItemModal';
+import './components/footer/footer';
+import './services/init';
