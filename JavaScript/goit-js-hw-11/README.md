@@ -12,4 +12,4 @@
 
 - [Завдання 1 - Перемикач кольорів](./color-switch/README.ua.md)
 - [Завдання 2 - Промісифікація](./promisification/README.ua.md)
-- [Завдання 3 - Таймер зворотного відліку](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-11/goit-js-hw-11-timer/)(./timer/README.ua.md)
+- [Завдання 3 - Таймер зворотного відліку](https://inpulsgor.github.io/hogwarts/JavaScript/goit-js-hw-11/goit-js-hw-11-timer/)
